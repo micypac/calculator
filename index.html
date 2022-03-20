@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TOP Calculator</title>
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Font -->
+    <script src="https://kit.fontawesome.com/f62bba440f.js" crossorigin="anonymous"></script>
+
     <!-- External Stylesheets -->
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
@@ -13,26 +21,30 @@
 <body>
     <main>
         <div id="display">0</div>
-        <button type="button" id="clear">C</button>
-        <button type="button" id="sign">+/-</button>
-        <button type="button" id="delete">DEL</button>
-        <button type="button" class="operator">÷</button>
+        <button type="button" id="clear" class="func-btn">AC</button>
+        <button type="button" id="delete" class="func-btn">C</button>
+        <button type="button" id="sign" class="func-btn">+/-</button>
+        <button type="button" class="operator op-btn">÷</button>
         <button type="button" class="digit">7</button>
         <button type="button" class="digit">8</button>
         <button type="button" class="digit">9</button>
-        <button type="button" class="operator">x</button>
+        <button type="button" class="operator op-btn">x</button>
         <button type="button" class="digit">4</button>
         <button type="button" class="digit">5</button>
         <button type="button" class="digit">6</button>
-        <button type="button" class="operator">-</button>
+        <button type="button" class="operator op-btn">-</button>
         <button type="button" class="digit">1</button>
         <button type="button" class="digit">2</button>
         <button type="button" class="digit">3</button>
-        <button type="button" class="operator">+</button>
+        <button type="button" class="operator op-btn">+</button>
         <button type="button" class="digit" id="btn-0">0</button>
         <button type="button" id="decimal">.</button>
-        <button type="button" id="equals">=</button>
+        <button type="button" id="equals" class="op-btn">=</button>
     </main>
+
+    <footer>
+        <p></p><small>Copyright © 2022 micypac</small> <a href="https://github.com/micypac/calculator" target="_blank"><i class="fa-brands fa-github"></i></a></p>
+    </footer>
     
 
     <script type="text/javascript" src="script.js"></script>
